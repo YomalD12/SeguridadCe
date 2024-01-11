@@ -9,8 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje_cifrado = cifradoCesar($mensaje, $clave);
 
     // Configurar cabeceras del correo
-    $cabeceras = "From: tu@email.com" . "\r\n" .
-                 "Reply-To: tu@email.com" . "\r\n" .
+    $cabeceras = "From: yomald1212@email.com" . "\r\n" .
+                 "Reply-To: jfzp97.jz@email.com" . "\r\n" .
                  "X-Mailer: PHP/" . phpversion();
 
     // Enviar el correo cifrado
@@ -39,3 +39,4 @@ function cifradoCesar($texto, $clave) {
     return $resultado;
 }
 ?>
+
